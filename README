@@ -1,0 +1,18 @@
+This project is a case use by The IT Solutions.
+
+The Project uses Spring Boot 2.0, MySQL 5.5 and Java JDK 8.0
+They are required to run the project smoothly.
+
+The documentation is available on the http://localhost:8080/swagger-ui.html address.
+
+REST endpoints:
+
+http://localhost:8080/meter/first?givenyear=2018
+Returns the sum of the all meter readings by the given year. 2018 should be replaced for the desired year.
+
+http://localhost:8080/meter/second?givenyear=2018
+Returns the meter reading by each of the months on the given year. 2018 should be replaced for the desired year.
+
+http://localhost:8080/meter/third?givenyear=2018&givenmonth=January
+Return the meter reading by the given month on the given year. 2018 and January should be replaced for the desired year and month.
+
